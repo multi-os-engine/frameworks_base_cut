@@ -43,7 +43,7 @@
 #include "core_jni_helpers.h"
 
 #ifdef MOE
-#include "thread.h"
+#include "thread-current-inl.h"
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
